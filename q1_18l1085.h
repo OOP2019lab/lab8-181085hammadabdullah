@@ -3,7 +3,7 @@
 #include <cstring>
 #include <fstream>
 using namespace std;
-//We note need friend function with class name beacuse friend function knows the class of object which we use in that friend function for example
+//We not need friend function with class name beacuse friend function knows the class of object which we use in that friend function for example
 //in this case obj is member of class Date so when we use Date obj friend function knows about that obj is member of date class and this 
 //frirnd fuction access its private variables and functions easily
 class Date{

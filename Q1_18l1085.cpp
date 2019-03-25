@@ -53,7 +53,7 @@ return temp;
 }
 }
 int Date::operator[](int n){//subscript opertor
-	if(n<0 && n>2){
+	if(n<0 || n>2){
 	cout<<"only index 0 , 1 and 2 present"<<endl;
 	}
 	else{
